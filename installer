@@ -74,79 +74,79 @@ export DOTFILES_PATH="$DOTFILES_PATH"
 dotly_inner_path="modules/dotly"
 export DOTLY_PATH="$DOTFILES_PATH/$dotly_inner_path"
 
-create_dotfiles_dir "$DOTFILES_PATH"
-cd "$DOTFILES_PATH"
+#create_dotfiles_dir "$DOTFILES_PATH"
+#cd "$DOTFILES_PATH"
 
-if ! command_exists git; then
-	_e "git not installed, trying to install"
+#if ! command_exists git; then
+#	_e "git not installed, trying to install"
+#
+#	if command_exists apt; then
+#		_a "Installing using apt"
+#		sudo apt -y install git 2>&1 | _log "Installing git"
+#	elif command_exists dnf; then
+#		_a "Installing using dnf"
+#		sudo dnf -y install git 2>&1 | _log "Installing git"
+#	elif command_exists yum; then
+#		_a "Installing using yum"
+#		yes | sudo yum install git 2>&1 | _log "Installing git"
+#	elif command_exists brew; then
+#		_a "Installing using brew"
+#		yes | brew install git 2>&1 | _log "Installing git"
+#	elif command_exists pacman; then
+#		_a "Installing using pacman"
+#		sudo pacman -S --noconfirm git 2>&1 | _log "Installing git"
+#	else
+#		case "$OSTYPE" in
+#		darwin*)
+#			_a "Checking if Command Line Tools are installed 🕵️‍♂️"
+#
+#			xcode-select --install 2>&1 | grep installed >/dev/null
+#			if [[ $? ]]; then
+#				_a "Installing Command Line Tools 📺"
+#				xcode-select --install
+#				_q "Press a key after command line tools has finished to continue...👇" "CLT_INSTALLED"
+#			fi
+#			;;
+#		*)
+#			_e "Could not install git, no package provider found"
+#			exit 1
+#			;;
+#		esac
+#	fi
+#fi
 
-	if command_exists apt; then
-		_a "Installing using apt"
-		sudo apt -y install git 2>&1 | _log "Installing git"
-	elif command_exists dnf; then
-		_a "Installing using dnf"
-		sudo dnf -y install git 2>&1 | _log "Installing git"
-	elif command_exists yum; then
-		_a "Installing using yum"
-		yes | sudo yum install git 2>&1 | _log "Installing git"
-	elif command_exists brew; then
-		_a "Installing using brew"
-		yes | brew install git 2>&1 | _log "Installing git"
-	elif command_exists pacman; then
-		_a "Installing using pacman"
-		sudo pacman -S --noconfirm git 2>&1 | _log "Installing git"
-	else
-		case "$OSTYPE" in
-		darwin*)
-			_a "Checking if Command Line Tools are installed 🕵️‍♂️"
-
-			xcode-select --install 2>&1 | grep installed >/dev/null
-			if [[ $? ]]; then
-				_a "Installing Command Line Tools 📺"
-				xcode-select --install
-				_q "Press a key after command line tools has finished to continue...👇" "CLT_INSTALLED"
-			fi
-			;;
-		*)
-			_e "Could not install git, no package provider found"
-			exit 1
-			;;
-		esac
-	fi
-fi
-
-if ! command_exists curl; then
-	_e "curl not installed, trying to install"
-
-	if command_exists apt; then
-		_a "Installing using apt"
-		sudo apt -y install curl 2>&1 | _log "Installing curl"
-	elif command_exists dnf; then
-		_a "Installing using dnf"
-		sudo dnf -y install curl 2>&1 | _log "Installing curl"
-	elif command_exists yum; then
-		_a "Installing using yum"
-		yes | sudo yum install curl 2>&1 | _log "Installing curl"
-	elif command_exists brew; then
-		_a "Installing using brew"
-		yes | brew install curl 2>&1 | _log "Installing curl"
-	elif command_exists pacman; then
-		_a "Installing using pacman"
-		sudo pacman -S --noconfirm curl 2>&1 | _log "Installing curl"
-	else
-		_e "Could not install curl, no package provider found"
-		exit 1
-	fi
-fi
+#if ! command_exists curl; then
+#	_e "curl not installed, trying to install"
+#
+#	if command_exists apt; then
+#		_a "Installing using apt"
+#		sudo apt -y install curl 2>&1 | _log "Installing curl"
+#	elif command_exists dnf; then
+#		_a "Installing using dnf"
+#		sudo dnf -y install curl 2>&1 | _log "Installing curl"
+#	elif command_exists yum; then
+#		_a "Installing using yum"
+#		yes | sudo yum install curl 2>&1 | _log "Installing curl"
+#	elif command_exists brew; then
+#		_a "Installing using brew"
+#		yes | brew install curl 2>&1 | _log "Installing curl"
+#	elif command_exists pacman; then
+#		_a "Installing using pacman"
+#		sudo pacman -S --noconfirm curl 2>&1 | _log "Installing curl"
+#	else
+#		_e "Could not install curl, no package provider found"
+#		exit 1
+#	fi
+#fi
 
 _a "Initializing your dotfiles git repository"
-git init 2>&1 | _log "Initializing repository"
+#git init 2>&1 | _log "Initializing repository"
 
 _a "Cloning dotly"
-git submodule add -b "$DOTLY_BRANCH" "https://github.com/$DOTLY_REPOSITORY.git" "$dotly_inner_path" 2>&1 | _log "Adding dotly submodule"
+#git submodule add -b "$DOTLY_BRANCH" "https://github.com/$DOTLY_REPOSITORY.git" "$dotly_inner_path" 2>&1 | _log "Adding dotly submodule"
 
 _a "Installing dotly dependencies"
-git submodule update --init --recursive 2>&1 | _log "Installing dotly dependencies"
+#git submodule update --init --recursive 2>&1 | _log "Installing dotly dependencies"
 
 cd "$DOTLY_PATH"
 

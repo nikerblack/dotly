@@ -35,23 +35,26 @@ script_exist() {
 }
 
 if args::has_no_args "$@"; then
-	fzf_prompt "$(dot::list_scripts_path)"
+echo "Has No Args"
+	#fzf_prompt "$(dot::list_scripts_path)"
 elif args::total_is 1 "$@"; then
-	fzf_prompt "$(dot::list_scripts_path | grep "/$1/")"
+echo "Has 1 Argument"
+	#fzf_prompt "$(dot::list_scripts_path | grep "/$1/")"
 else
-	context="$1"
-	script="$2"
-
-	shift 2
-
-	script_path=""
-	script_exist "$DOTFILES_PATH" "$context" "$script" && script_path="$DOTFILES_PATH"
-	script_exist "$DOTLY_PATH" "$context" "$script" && script_path="$DOTLY_PATH"
-
-	if [ -z "$script_path" ]; then
-		output::error "The script <$context / $script> doesn't exist"
-		exit 1
-	fi
-
-	"${script_path}/scripts/${context}/${script}" "$@"
+echo "Im Not Sure"
+	#context="$1"
+	#script="$2"
+	#
+	#shift 2
+	#
+	#script_path=""
+	#script_exist "$DOTFILES_PATH" "$context" "$script" && script_path="$DOTFILES_PATH"
+	#script_exist "$DOTLY_PATH" "$context" "$script" && script_path="$DOTLY_PATH"
+	#
+	#if [ -z "$script_path" ]; then
+	#	output::error "The script <$context / $script> doesn't exist"
+	#	exit 1
+	#fi
+	#
+	#"${script_path}/scripts/${context}/${script}" "$@"
 fi
