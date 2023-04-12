@@ -1,0 +1,1127 @@
+----- 2023-03-28 20:39:14 - Initializing repository -----
+Initialized empty Git repository in /Users/sergioandres/.dotfiles/.git/
+
+----- 2023-03-28 20:39:14 - Adding dotly submodule -----
+Cloning into '/Users/sergioandres/.dotfiles/modules/dotly'...
+
+----- 2023-03-28 20:39:16 - Installing dotly dependencies -----
+Submodule 'modules/dotbot' (https://github.com/anishathalye/dotbot.git) registered for path 'modules/dotly/modules/dotbot'
+Submodule 'modules/z' (https://github.com/rupa/z.git) registered for path 'modules/dotly/modules/z'
+Cloning into '/Users/sergioandres/.dotfiles/modules/dotly/modules/dotbot'...
+Cloning into '/Users/sergioandres/.dotfiles/modules/dotly/modules/z'...
+Submodule path 'modules/dotly/modules/dotbot': checked out 'cf366bbf6676d1c95f412eb514509f16322b5c9c'
+Submodule 'lib/pyyaml' (https://github.com/yaml/pyyaml) registered for path 'modules/dotly/modules/dotbot/lib/pyyaml'
+Cloning into '/Users/sergioandres/.dotfiles/modules/dotly/modules/dotbot/lib/pyyaml'...
+Submodule path 'modules/dotly/modules/dotbot/lib/pyyaml': checked out '2f463cf5b0e98a52bc20e348d1e69761bf263b86'
+Submodule path 'modules/dotly/modules/z': checked out '125f4dc47e15891739dd8262d5b23077fe8fb9ab'
+
+----- 2023-03-28 20:39:27 - Installing brew bash -----
+==> Fetching bash
+==> Downloading https://ghcr.io/v2/homebrew/core/bash/manifests/5.2.15
+==> Downloading https://ghcr.io/v2/homebrew/core/bash/blobs/sha256:fd01a9dbdc56f6313a725cb345a3b991cfdaa9e1a91b08fd9791a0e695b55723
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:fd01a9dbdc56f6313a725cb345a3b991cfdaa9e1a91b08fd9791a0e695b55723?se=2023-03-29T01%3A45%3A00Z&sig=XGcFPnocFcA4qhXK0jZc8FKs%2FiwquoYC9pmI%2F4Hg0xw%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring bash--5.2.15.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/bash/5.2.15: 162 files, 11.7MB
+==> Running `brew cleanup bash`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/sergioandres/Library/Caches/Homebrew/Cask/iterm2--3.4.18.zip... (22.9MB)
+Removing: /Users/sergioandres/Library/Caches/Homebrew/Cask/adobe-acrobat-reader--22.003.20310.dmg... (361.2MB)
+Removing: /Users/sergioandres/Library/Caches/Homebrew/Cask/google-chrome--108.0.5359.124.dmg... (202.3MB)
+
+----- 2023-03-28 20:39:45 - Installing brew zsh -----
+==> Fetching dependencies for zsh: ncurses and pcre
+==> Fetching ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.4
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:1460ee1a2732cde79771a8c22960897e9aa3e57da0410ddcc0560bc5fc113d9a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:1460ee1a2732cde79771a8c22960897e9aa3e57da0410ddcc0560bc5fc113d9a?se=2023-03-29T01%3A45%3A00Z&sig=wwq%2BYEE2tFakFqO8Ww0IPgLwrkAgZIDccPvg2SHaHZg%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Fetching pcre
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre/manifests/8.45
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre/blobs/sha256:df481fdd99c1dff924ea2d679623512d6c0c275e3b7c223e753ec654994ac6e5
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:df481fdd99c1dff924ea2d679623512d6c0c275e3b7c223e753ec654994ac6e5?se=2023-03-29T01%3A45%3A00Z&sig=houzSSNVKpAdK7cAy1shfKUV%2BUcO%2FDs6ariy1C6Dey8%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Fetching zsh
+==> Downloading https://ghcr.io/v2/homebrew/core/zsh/manifests/5.9
+==> Downloading https://ghcr.io/v2/homebrew/core/zsh/blobs/sha256:1175aa3d19707da832bcb82e6a5ef49f513d98a840bcc252f96379eec4d5c18e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:1175aa3d19707da832bcb82e6a5ef49f513d98a840bcc252f96379eec4d5c18e?se=2023-03-29T01%3A45%3A00Z&sig=vZaoGO09k4bZEgDw7Fuc8yASTTyJ%2BSNJSnRoacTg2d4%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Installing dependencies for zsh: ncurses and pcre
+==> Installing zsh dependency: ncurses
+==> Pouring ncurses--6.4.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/ncurses/6.4: 4,001 files, 9.4MB
+==> Installing zsh dependency: pcre
+==> Pouring pcre--8.45.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre/8.45: 204 files, 5.7MB
+==> Installing zsh
+==> Pouring zsh--5.9.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/zsh/5.9: 1,578 files, 15.3MB
+==> Running `brew cleanup zsh`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+----- 2023-03-28 20:40:20 - Installing brew coreutils -----
+==> Fetching dependencies for coreutils: gmp
+==> Fetching gmp
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.2.1_1
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:4c6488dfd53b8287702827a4e6d50569926417f2cd08613d37720de54b6afe0c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:4c6488dfd53b8287702827a4e6d50569926417f2cd08613d37720de54b6afe0c?se=2023-03-29T01%3A50%3A00Z&sig=QGdDXcO6sUX1Fc%2FGeI7SK5cnP8t4WKPj%2FtDznvRwDhk%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Fetching coreutils
+==> Downloading https://ghcr.io/v2/homebrew/core/coreutils/manifests/9.2
+==> Downloading https://ghcr.io/v2/homebrew/core/coreutils/blobs/sha256:b4439c7050df83748c37b8a5f12654b37cea9570fc94ebeff2768ad8fa6ac5da
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:b4439c7050df83748c37b8a5f12654b37cea9570fc94ebeff2768ad8fa6ac5da?se=2023-03-29T01%3A50%3A00Z&sig=ZWzFmlhbUfA9AJHNhesKgbTBWplLqUS19gvOZ5NR3Qg%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Installing dependencies for coreutils: gmp
+==> Installing coreutils dependency: gmp
+==> Pouring gmp--6.2.1_1.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/gmp/6.2.1_1: 21 files, 3.3MB
+==> Installing coreutils
+==> Pouring coreutils--9.2.ventura.bottle.tar.gz
+==> Caveats
+Commands also provided by macOS and the commands dir, dircolors, vdir have been installed with the prefix "g".
+If you need to use these commands with their normal names, you can add a "gnubin" directory to your PATH with:
+  PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+==> Summary
+🍺  /usr/local/Cellar/coreutils/9.2: 476 files, 13.7MB
+==> Running `brew cleanup coreutils`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> coreutils
+Commands also provided by macOS and the commands dir, dircolors, vdir have been installed with the prefix "g".
+If you need to use these commands with their normal names, you can add a "gnubin" directory to your PATH with:
+  PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+----- 2023-03-28 20:40:39 - Installing brew make -----
+==> Fetching make
+==> Downloading https://ghcr.io/v2/homebrew/core/make/manifests/4.4.1
+==> Downloading https://ghcr.io/v2/homebrew/core/make/blobs/sha256:206c13dc47f17131b1337ed24677b69288c2f03f780d09d1c3e5fd11a41d6ad9
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:206c13dc47f17131b1337ed24677b69288c2f03f780d09d1c3e5fd11a41d6ad9?se=2023-03-29T01%3A50%3A00Z&sig=tmkZcp9oMVyH3EMqSgwfWV4K87GXTPto7Jdzly2PvzU%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring make--4.4.1.ventura.bottle.tar.gz
+==> Caveats
+GNU "make" has been installed as "gmake".
+If you need to use it as "make", you can add a "gnubin" directory
+to your PATH from your bashrc like:
+
+    PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
+==> Summary
+🍺  /usr/local/Cellar/make/4.4.1: 16 files, 1.3MB
+==> Running `brew cleanup make`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+----- 2023-03-28 20:40:50 - Installing brew gnu-sed -----
+==> Fetching gnu-sed
+==> Downloading https://ghcr.io/v2/homebrew/core/gnu-sed/manifests/4.9
+==> Downloading https://ghcr.io/v2/homebrew/core/gnu-sed/blobs/sha256:a1ac59a9a6fa20c6c904e047df3ee4d0b4e57c0a5df3821b17b8cd82bcc67b5a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:a1ac59a9a6fa20c6c904e047df3ee4d0b4e57c0a5df3821b17b8cd82bcc67b5a?se=2023-03-29T01%3A50%3A00Z&sig=rsJHhZZUXmrXnVGzLcBDJqq20VLu1roAtUagntkkqIU%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring gnu-sed--4.9.ventura.bottle.tar.gz
+==> Caveats
+GNU "sed" has been installed as "gsed".
+If you need to use it as "sed", you can add a "gnubin" directory
+to your PATH from your bashrc like:
+
+    PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+==> Summary
+🍺  /usr/local/Cellar/gnu-sed/4.9: 12 files, 628.3KB
+==> Running `brew cleanup gnu-sed`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+----- 2023-03-28 20:41:01 - Installing brew findutils -----
+==> Fetching findutils
+==> Downloading https://ghcr.io/v2/homebrew/core/findutils/manifests/4.9.0-1
+==> Downloading https://ghcr.io/v2/homebrew/core/findutils/blobs/sha256:c32f96d54d0b689a5df3f9664a65d2a1fe954402481a49593767b5e856700887
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:c32f96d54d0b689a5df3f9664a65d2a1fe954402481a49593767b5e856700887?se=2023-03-29T01%3A50%3A00Z&sig=7JNOr1ly29ozAbnAW2iKwsnix66XdiN0rYRPE81N4%2BM%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring findutils--4.9.0.ventura.bottle.1.tar.gz
+==> Caveats
+All commands have been installed with the prefix "g".
+If you need to use these commands with their normal names, you
+can add a "gnubin" directory to your PATH from your bashrc like:
+  PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
+==> Summary
+🍺  /usr/local/Cellar/findutils/4.9.0: 31 files, 1.9MB
+==> Running `brew cleanup findutils`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+----- 2023-03-28 20:41:13 - Installing brew bat -----
+==> Fetching bat
+==> Downloading https://ghcr.io/v2/homebrew/core/bat/manifests/0.23.0
+==> Downloading https://ghcr.io/v2/homebrew/core/bat/blobs/sha256:8ff93e5f116859666cf9f147d90c06e0fe53b80d31370b20f0f123ae322f68fd
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:8ff93e5f116859666cf9f147d90c06e0fe53b80d31370b20f0f123ae322f68fd?se=2023-03-29T01%3A50%3A00Z&sig=Hu86bnuGNm6BVH4ZqtqMMUmVShAlw9vsaU0Nlo6Iqic%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring bat--0.23.0.ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/bat/0.23.0: 14 files, 4.9MB
+==> Running `brew cleanup bat`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+----- 2023-03-28 20:41:25 - Installing brew hyperfine -----
+==> Fetching hyperfine
+==> Downloading https://ghcr.io/v2/homebrew/core/hyperfine/manifests/1.16.1
+==> Downloading https://ghcr.io/v2/homebrew/core/hyperfine/blobs/sha256:e14e672beb3f0e3d1ca36bb3a9c6031b0fbaa556198b721319a826c26e314b28
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:e14e672beb3f0e3d1ca36bb3a9c6031b0fbaa556198b721319a826c26e314b28?se=2023-03-29T01%3A50%3A00Z&sig=3ukHClVmES1szh%2FdMzMZVi1j1jO6HtO63GiIxbPzYNs%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring hyperfine--1.16.1.ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/hyperfine/1.16.1: 13 files, 1.3MB
+==> Running `brew cleanup hyperfine`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+----- 2023-03-28 20:41:36 - Installing mas -----
+==> Fetching mas
+==> Downloading https://ghcr.io/v2/homebrew/core/mas/manifests/1.8.6
+==> Downloading https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:6ef7788e28c46cdc0f916812f49dfeb1fabf2240a8c36f33ce34bcfb9df1502f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:6ef7788e28c46cdc0f916812f49dfeb1fabf2240a8c36f33ce34bcfb9df1502f?se=2023-03-29T01%3A50%3A00Z&sig=TDl0f7VJ%2FfXBq0uITgBtDRrOjsKju9qCaiyF2tPTaN0%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring mas--1.8.6.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/mas/1.8.6: 7 files, 1.1MB
+==> Running `brew cleanup mas`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+----- 2023-03-28 20:41:56 - Trying to install fzf using brew -----
+==> Fetching fzf
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/manifests/0.38.0
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/blobs/sha256:f9e25ecad5ab8cb14170dace4308c6eecf7b3b14c3a008467dc70c5f2b53d3e6
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:f9e25ecad5ab8cb14170dace4308c6eecf7b3b14c3a008467dc70c5f2b53d3e6?se=2023-03-29T01%3A50%3A00Z&sig=aPNHnVubDCplfi8QdgqKZjAsgPQuQvOcPJXYrascvjo%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring fzf--0.38.0.ventura.bottle.tar.gz
+==> Caveats
+To install useful keybindings and fuzzy completion:
+  /usr/local/opt/fzf/install
+
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/usr/local/opt/fzf
+==> Summary
+🍺  /usr/local/Cellar/fzf/0.38.0: 17 files, 3.5MB
+==> Running `brew cleanup fzf`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+----- 2023-03-28 20:42:05 - Trying to install python using brew -----
+==> Fetching dependencies for python@3.11: mpdecimal, ca-certificates, openssl@1.1, readline, sqlite and xz
+==> Fetching mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/2.5.1
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:91f795d74747bf8723022ac813f3f81d71fefb774116c27f936b2e32018a1926
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:91f795d74747bf8723022ac813f3f81d71fefb774116c27f936b2e32018a1926?se=2023-03-29T01%3A50%3A00Z&sig=BE3dPbanhjnWpMlckws3m7f7bBMhKWYXtlM3IEbOw%2B0%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023-01-10
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:11fe9d0a98a2ac454fa1db95762a697c3340f46560ff27e5e9db8fdeb003f17e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:11fe9d0a98a2ac454fa1db95762a697c3340f46560ff27e5e9db8fdeb003f17e?se=2023-03-29T01%3A50%3A00Z&sig=3oOk%2Fg4Nk36UL9yHEr9Stn2Lyf0ZmWJDPh3fsIvbWZ4%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Fetching openssl@1.1
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1t
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:97676d1a616421e472c46fc7930fa4a9ced514cabc1d66ae0fb8597be09ac802
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:97676d1a616421e472c46fc7930fa4a9ced514cabc1d66ae0fb8597be09ac802?se=2023-03-29T01%3A50%3A00Z&sig=lUnb9ptf8AHrvaWk28bj3OcqqU%2FoS%2Bt8r5jZKlr6Vj4%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.1
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:abe9d3f3eec3ba2339860faa6a978b9909194c65c97a60b0d16f3d6d118879ea
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:abe9d3f3eec3ba2339860faa6a978b9909194c65c97a60b0d16f3d6d118879ea?se=2023-03-29T01%3A50%3A00Z&sig=TAXPb%2BtIqeMYX5kVxajwtwsChEqw3gIEPJsBkWPTZFQ%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.41.2
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:1d86064177dc844cfa23ddf9c857c4f8171bc6c232ba494e02df3b0ddddf4f07
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:1d86064177dc844cfa23ddf9c857c4f8171bc6c232ba494e02df3b0ddddf4f07?se=2023-03-29T01%3A50%3A00Z&sig=eVbUj6%2BLVboKyAkFpZOAfCGVL0tem5DJQFXhDmcUriY%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.4.2
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:3ab65841cb683e7a8505523ef097358d43a93de337d4512229be9d1caf82b209
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:3ab65841cb683e7a8505523ef097358d43a93de337d4512229be9d1caf82b209?se=2023-03-29T01%3A50%3A00Z&sig=OkOWKu%2FURX%2Fpphgdg%2Be6zXAf%2FMoi7Rx8BqCgJS1ToOg%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Fetching python@3.11
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.11/manifests/3.11.2_1-1
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:228565950db8e0b73697fd246dba83e560aa7ca444bec0a79f53323c35471253
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:228565950db8e0b73697fd246dba83e560aa7ca444bec0a79f53323c35471253?se=2023-03-29T01%3A50%3A00Z&sig=PXhXqKRJnh58hhvLv8BQcc%2BOn7hdSJYwfjZ%2Fjq5olt4%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Installing dependencies for python@3.11: mpdecimal, ca-certificates, openssl@1.1, readline, sqlite and xz
+==> Installing python@3.11 dependency: mpdecimal
+==> Pouring mpdecimal--2.5.1.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/mpdecimal/2.5.1: 71 files, 2MB
+==> Installing python@3.11 dependency: ca-certificates
+==> Pouring ca-certificates--2023-01-10.all.bottle.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /usr/local/Cellar/ca-certificates/2023-01-10: 3 files, 216.9KB
+==> Installing python@3.11 dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1t.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1t: 8,101 files, 18.5MB
+==> Installing python@3.11 dependency: readline
+==> Pouring readline--8.2.1.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/readline/8.2.1: 50 files, 1.7MB
+==> Installing python@3.11 dependency: sqlite
+==> Pouring sqlite--3.41.2.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/sqlite/3.41.2: 11 files, 4.4MB
+==> Installing python@3.11 dependency: xz
+==> Pouring xz--5.4.2.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/xz/5.4.2: 162 files, 2.5MB
+==> Installing python@3.11
+==> Pouring python@3.11--3.11.2_1.ventura.bottle.1.tar.gz
+[34m==>[0m [1m/usr/local/Cellar/python@3.11/3.11.2_1/bin/python3.11 -m ensurepip[0m
+[34m==>[0m [1m/usr/local/Cellar/python@3.11/3.11.2_1/bin/python3.11 -m pip install -v --no[0m
+==> Caveats
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.11/site-packages
+
+tkinter is no longer included with this formula, but it is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /usr/local/Cellar/python@3.11/3.11.2_1: 3,176 files, 61.4MB
+==> Running `brew cleanup python@3.11`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> python@3.11
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.11/site-packages
+
+tkinter is no longer included with this formula, but it is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+
+----- 2023-03-28 20:43:31 - Trying to install python using mas -----
+
+----- 2023-03-28 20:43:31 - Trying to install python using ports -----
+
+----- 2023-03-28 20:43:31 - Trying to install python using cargo -----
+
+----- 2023-03-28 20:43:31 - Creating dotfiles structure -----
+
+----- 2023-03-28 20:43:32 - /Users/sergioandres/.pre_dotly_backup/.zimrc backed up -----
+----- 2023-03-28 20:43:32 - /Users/sergioandres/.pre_dotly_backup/.zshrc backed up -----
+----- 2023-03-28 20:43:32 - Applying symlinks -----
+
+All targets have been cleaned
+Creating path /Users/sergioandres/.dotfiles/shell/bash/completions
+Creating path /Users/sergioandres/.dotfiles/shell/bash/themes
+All paths have been set up
+Creating link ~/.bash_profile -> /Users/sergioandres/.dotfiles/shell/bash/.bash_profile
+Creating link ~/.bashrc -> /Users/sergioandres/.dotfiles/shell/bash/.bashrc
+Removing ~/.zimrc
+Creating link ~/.zimrc -> /Users/sergioandres/.dotfiles/shell/zsh/.zimrc
+Creating link ~/.zlogin -> /Users/sergioandres/.dotfiles/shell/zsh/.zlogin
+Creating link ~/.zshenv -> /Users/sergioandres/.dotfiles/shell/zsh/.zshenv
+Removing ~/.zshrc
+Creating link ~/.zshrc -> /Users/sergioandres/.dotfiles/shell/zsh/.zshrc
+Creating link ~/.inputrc -> /Users/sergioandres/.dotfiles/shell/.inputrc
+All links have been set up
+
+==> All tasks executed successfully
+
+
+All targets have been cleaned
+Creating path /Users/sergioandres/.hushlogin
+All paths have been set up
+Creating link ~/.dotly -> /Users/sergioandres/.dotfiles/os/mac/.dotly
+Creating link ~/bin/bash -> /usr/local/bin/bash
+Creating link ~/bin/date -> /usr/local/bin/gdate
+Creating link ~/bin/find -> /usr/local/opt/findutils/bin/gfind
+Creating link ~/bin/make -> /usr/local/opt/make/libexec/gnubin/make
+Creating link ~/bin/sed -> /usr/local/opt/gnu-sed/libexec/gnubin/sed
+Creating link ~/bin/touch -> /usr/local/bin/gtouch
+All links have been set up
+
+==> All tasks executed successfully
+
+
+----- 2023-04-07 19:52:12 - Updating brew -----
+Already up-to-date.
+
+----- 2023-04-07 19:52:43 - Updating brew app: fzf -----
+==> Upgrading 1 outdated package:
+fzf 0.38.0 -> 0.39.0
+==> Fetching fzf
+==> Upgrading fzf
+  0.38.0 -> 0.39.0 
+==> Caveats
+To install useful keybindings and fuzzy completion:
+  /usr/local/opt/fzf/install
+
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/usr/local/opt/fzf
+==> Summary
+🍺  /usr/local/Cellar/fzf/0.39.0: 17 files, 3.6MB
+==> Running `brew cleanup fzf`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /usr/local/Cellar/fzf/0.38.0... (17 files, 3.5MB)
+Removing: /Users/sergioandres/Library/Caches/Homebrew/fzf--0.38.0... (1.4MB)
+
+----- 2023-04-07 19:52:55 - Updating pip app: pip -----
+Requirement already satisfied: pip in /usr/local/lib/python3.11/site-packages (22.3.1)
+Collecting pip
+  Downloading pip-23.0.1-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 5.2 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 22.3.1
+    Uninstalling pip-22.3.1:
+      Successfully uninstalled pip-22.3.1
+Successfully installed pip-23.0.1
+
+----- 2023-04-07 19:53:00 - Updating pip app: setuptools -----
+Requirement already satisfied: setuptools in /usr/local/lib/python3.11/site-packages (65.6.3)
+Collecting setuptools
+  Downloading setuptools-67.6.1-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 1.4 MB/s eta 0:00:00
+Installing collected packages: setuptools
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 65.6.3
+    Uninstalling setuptools-65.6.3:
+      Successfully uninstalled setuptools-65.6.3
+Successfully installed setuptools-67.6.1
+
+----- 2023-04-07 19:53:03 - Updating pip app: wheel -----
+Requirement already satisfied: wheel in /usr/local/lib/python3.11/site-packages (0.38.4)
+Collecting wheel
+  Downloading wheel-0.40.0-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.5/64.5 kB 661.5 kB/s eta 0:00:00
+Installing collected packages: wheel
+  Attempting uninstall: wheel
+    Found existing installation: wheel 0.38.4
+    Uninstalling wheel-0.38.4:
+      Successfully uninstalled wheel-0.38.4
+Successfully installed wheel-0.40.0
+
+----- 2023-04-07 19:53:09 - Updating gem app: CFPropertyList -----
+Updating installed gems
+Updating CFPropertyList
+Successfully installed CFPropertyList-3.0.6
+Parsing documentation for CFPropertyList-3.0.6
+Installing ri documentation for CFPropertyList-3.0.6
+Installing darkfish documentation for CFPropertyList-3.0.6
+Done installing documentation for CFPropertyList after 0 seconds
+Parsing documentation for CFPropertyList-3.0.6
+Done installing documentation for CFPropertyList after 0 seconds
+Gems updated: CFPropertyList
+
+----- 2023-04-07 19:53:14 - Updating gem app: bigdecimal -----
+Updating installed gems
+Updating bigdecimal
+Building native extensions. This could take a while...
+Successfully installed bigdecimal-3.1.4
+Parsing documentation for bigdecimal-3.1.4
+Installing ri documentation for bigdecimal-3.1.4
+Installing darkfish documentation for bigdecimal-3.1.4
+Done installing documentation for bigdecimal after 0 seconds
+Parsing documentation for bigdecimal-3.1.4
+Done installing documentation for bigdecimal after 0 seconds
+Gems updated: bigdecimal
+
+----- 2023-04-07 19:53:29 - Updating gem app: bundler -----
+Updating installed gems
+Updating bundler
+Successfully installed bundler-2.4.10
+Parsing documentation for bundler-2.4.10
+Installing ri documentation for bundler-2.4.10
+Installing darkfish documentation for bundler-2.4.10
+Done installing documentation for bundler after 0 seconds
+Parsing documentation for bundler-2.4.10
+Done installing documentation for bundler after 0 seconds
+Gems updated: bundler
+
+----- 2023-04-07 19:53:34 - Updating gem app: csv -----
+Updating installed gems
+Updating csv
+Successfully installed csv-3.2.6
+Parsing documentation for csv-3.2.6
+Installing ri documentation for csv-3.2.6
+Installing darkfish documentation for csv-3.2.6
+Done installing documentation for csv after 2 seconds
+Parsing documentation for csv-3.2.6
+Done installing documentation for csv after 0 seconds
+Gems updated: csv
+
+----- 2023-04-07 19:53:39 - Updating gem app: date -----
+Updating installed gems
+Updating date
+Building native extensions. This could take a while...
+Successfully installed date-3.3.3
+Parsing documentation for date-3.3.3
+Installing ri documentation for date-3.3.3
+Installing darkfish documentation for date-3.3.3
+Done installing documentation for date after 1 seconds
+Parsing documentation for date-3.3.3
+Done installing documentation for date after 0 seconds
+Gems updated: date
+
+----- 2023-04-07 19:53:49 - Updating gem app: dbm -----
+Updating installed gems
+Updating dbm
+Building native extensions. This could take a while...
+Successfully installed dbm-1.1.0
+Parsing documentation for dbm-1.1.0
+Installing ri documentation for dbm-1.1.0
+Installing darkfish documentation for dbm-1.1.0
+Done installing documentation for dbm after 0 seconds
+Parsing documentation for dbm-1.1.0
+Done installing documentation for dbm after 0 seconds
+Gems updated: dbm
+
+----- 2023-04-07 19:53:57 - Updating gem app: did_you_mean -----
+Updating installed gems
+Updating did_you_mean
+Successfully installed did_you_mean-1.6.3
+Parsing documentation for did_you_mean-1.6.3
+Installing ri documentation for did_you_mean-1.6.3
+Installing darkfish documentation for did_you_mean-1.6.3
+Done installing documentation for did_you_mean after 0 seconds
+Parsing documentation for did_you_mean-1.6.3
+Done installing documentation for did_you_mean after 0 seconds
+Gems updated: did_you_mean
+
+----- 2023-04-07 19:54:01 - Updating gem app: etc -----
+Updating installed gems
+Updating etc
+Building native extensions. This could take a while...
+Successfully installed etc-1.4.2
+Parsing documentation for etc-1.4.2
+Installing ri documentation for etc-1.4.2
+Installing darkfish documentation for etc-1.4.2
+Done installing documentation for etc after 0 seconds
+Parsing documentation for etc-1.4.2
+Done installing documentation for etc after 0 seconds
+Gems updated: etc
+
+----- 2023-04-07 19:54:10 - Updating gem app: fcntl -----
+Updating installed gems
+Updating fcntl
+Building native extensions. This could take a while...
+Successfully installed fcntl-1.0.2
+Parsing documentation for fcntl-1.0.2
+Installing ri documentation for fcntl-1.0.2
+Installing darkfish documentation for fcntl-1.0.2
+Done installing documentation for fcntl after 0 seconds
+Parsing documentation for fcntl-1.0.2
+Done installing documentation for fcntl after 0 seconds
+Gems updated: fcntl
+
+----- 2023-04-07 19:54:14 - Updating gem app: fiddle -----
+Updating installed gems
+Updating fiddle
+Building native extensions. This could take a while...
+Successfully installed fiddle-1.1.1
+Parsing documentation for fiddle-1.1.1
+Installing ri documentation for fiddle-1.1.1
+Installing darkfish documentation for fiddle-1.1.1
+Done installing documentation for fiddle after 0 seconds
+Parsing documentation for fiddle-1.1.1
+Done installing documentation for fiddle after 0 seconds
+Gems updated: fiddle
+
+----- 2023-04-07 19:54:25 - Updating gem app: fileutils -----
+Updating installed gems
+Updating fileutils
+Successfully installed fileutils-1.7.1
+Parsing documentation for fileutils-1.7.1
+Installing ri documentation for fileutils-1.7.1
+Installing darkfish documentation for fileutils-1.7.1
+Done installing documentation for fileutils after 0 seconds
+Parsing documentation for fileutils-1.7.1
+Done installing documentation for fileutils after 0 seconds
+Gems updated: fileutils
+
+----- 2023-04-07 19:54:29 - Updating gem app: forwardable -----
+Updating installed gems
+Updating forwardable
+Successfully installed forwardable-1.3.3
+Parsing documentation for forwardable-1.3.3
+Installing ri documentation for forwardable-1.3.3
+Installing darkfish documentation for forwardable-1.3.3
+Done installing documentation for forwardable after 0 seconds
+Parsing documentation for forwardable-1.3.3
+Done installing documentation for forwardable after 0 seconds
+Gems updated: forwardable
+
+----- 2023-04-07 19:54:33 - Updating gem app: io-console -----
+Updating installed gems
+Updating io-console
+Building native extensions. This could take a while...
+Successfully installed io-console-0.6.0
+Parsing documentation for io-console-0.6.0
+Installing ri documentation for io-console-0.6.0
+Installing darkfish documentation for io-console-0.6.0
+Done installing documentation for io-console after 0 seconds
+Parsing documentation for io-console-0.6.0
+Done installing documentation for io-console after 0 seconds
+Gems updated: io-console
+
+----- 2023-04-07 19:54:39 - Updating gem app: ipaddr -----
+Updating installed gems
+Updating ipaddr
+Successfully installed ipaddr-1.2.5
+Parsing documentation for ipaddr-1.2.5
+Installing ri documentation for ipaddr-1.2.5
+Installing darkfish documentation for ipaddr-1.2.5
+Done installing documentation for ipaddr after 0 seconds
+Parsing documentation for ipaddr-1.2.5
+Done installing documentation for ipaddr after 0 seconds
+Gems updated: ipaddr
+
+----- 2023-04-07 19:54:42 - Updating gem app: irb -----
+Updating installed gems
+Updating irb
+Successfully installed reline-0.3.3
+Successfully installed irb-1.6.3
+Parsing documentation for reline-0.3.3
+Installing ri documentation for reline-0.3.3
+Installing darkfish documentation for reline-0.3.3
+Parsing documentation for irb-1.6.3
+Installing ri documentation for irb-1.6.3
+Installing darkfish documentation for irb-1.6.3
+Done installing documentation for reline, irb after 2 seconds
+Parsing documentation for irb-1.6.3
+Parsing documentation for reline-0.3.3
+Done installing documentation for irb, reline after 1 seconds
+Gems updated: irb reline
+
+----- 2023-04-07 19:54:50 - Updating gem app: json -----
+Updating installed gems
+Updating json
+Building native extensions. This could take a while...
+Successfully installed json-2.6.3
+Parsing documentation for json-2.6.3
+Installing ri documentation for json-2.6.3
+Installing darkfish documentation for json-2.6.3
+Done installing documentation for json after 1 seconds
+Parsing documentation for json-2.6.3
+Done installing documentation for json after 0 seconds
+Gems updated: json
+
+----- 2023-04-07 19:54:58 - Updating gem app: libxml-ruby -----
+Updating installed gems
+Updating libxml-ruby
+Building native extensions. This could take a while...
+Before reporting this, could you check that the file you're documenting
+has proper syntax:
+
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -c ext/libxml/extconf.rb
+
+RDoc is not a full Ruby parser and will fail when fed invalid ruby programs.
+
+The internal error was:
+
+	(NoMethodError) undefined method `[]' for nil:NilClass
+
+ERROR:  While executing gem ... (NoMethodError)
+    undefined method `[]' for nil:NilClass
+Successfully installed libxml-ruby-4.0.0
+Parsing documentation for libxml-ruby-4.0.0
+
+----- 2023-04-07 19:55:12 - Updating gem app: logger -----
+Updating installed gems
+Updating logger
+Successfully installed logger-1.5.3
+Parsing documentation for logger-1.5.3
+Installing ri documentation for logger-1.5.3
+Installing darkfish documentation for logger-1.5.3
+Done installing documentation for logger after 0 seconds
+Parsing documentation for logger-1.5.3
+Done installing documentation for logger after 0 seconds
+Gems updated: logger
+
+----- 2023-04-07 19:55:16 - Updating gem app: matrix -----
+Updating installed gems
+Updating matrix
+Successfully installed matrix-0.4.2
+Parsing documentation for matrix-0.4.2
+Installing ri documentation for matrix-0.4.2
+Installing darkfish documentation for matrix-0.4.2
+Done installing documentation for matrix after 0 seconds
+Parsing documentation for matrix-0.4.2
+Done installing documentation for matrix after 0 seconds
+Gems updated: matrix
+
+----- 2023-04-07 19:55:19 - Updating gem app: mini_portile2 -----
+Updating installed gems
+Updating mini_portile2
+Successfully installed mini_portile2-2.8.1
+Parsing documentation for mini_portile2-2.8.1
+Installing ri documentation for mini_portile2-2.8.1
+Installing darkfish documentation for mini_portile2-2.8.1
+Done installing documentation for mini_portile2 after 0 seconds
+Parsing documentation for mini_portile2-2.8.1
+Done installing documentation for mini_portile2 after 0 seconds
+Gems updated: mini_portile2
+
+----- 2023-04-07 19:55:23 - Updating gem app: minitest -----
+Updating installed gems
+Updating minitest
+Successfully installed minitest-5.18.0
+Parsing documentation for minitest-5.18.0
+Installing ri documentation for minitest-5.18.0
+Installing darkfish documentation for minitest-5.18.0
+Done installing documentation for minitest after 1 seconds
+Parsing documentation for minitest-5.18.0
+Done installing documentation for minitest after 0 seconds
+Gems updated: minitest
+
+----- 2023-04-07 19:55:27 - Updating gem app: mutex_m -----
+Updating installed gems
+Updating mutex_m
+Successfully installed mutex_m-0.1.2
+Parsing documentation for mutex_m-0.1.2
+Installing ri documentation for mutex_m-0.1.2
+Installing darkfish documentation for mutex_m-0.1.2
+Done installing documentation for mutex_m after 0 seconds
+Parsing documentation for mutex_m-0.1.2
+Done installing documentation for mutex_m after 0 seconds
+Gems updated: mutex_m
+
+----- 2023-04-07 19:55:31 - Updating gem app: nokogiri -----
+Updating installed gems
+Updating nokogiri
+Building native extensions. This could take a while...
+ERROR:  Error installing nokogiri:
+	There are no versions of nokogiri (= 1.14.2) compatible with your Ruby & RubyGems. Maybe try installing an older version of the gem you're looking for?
+	nokogiri requires Ruby version >= 2.7, < 3.3.dev. The current ruby version is 2.6.10.210.
+Successfully installed racc-1.6.2
+Gems updated: racc nokogiri
+
+----- 2023-04-07 19:55:38 - Updating gem app: openssl -----
+Updating installed gems
+Updating openssl
+Building native extensions. This could take a while...
+ERROR:  Error installing openssl:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Users/sergioandres/.gem/gems/openssl-3.1.0/ext/openssl
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230407-31544-1pewv59.rb extconf.rb
+checking for rb_io_maybe_wait(0, Qnil, Qnil, Qnil) in ruby/io.h... no
+checking for t_open() in -lnsl... no
+checking for socket() in -lsocket... no
+checking for openssl/ssl.h... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
+	--with-openssl-dir
+	--with-openssl-include
+	--without-openssl-include=${openssl-dir}/include
+	--with-openssl-lib
+	--without-openssl-lib=${openssl-dir}/lib
+	--with-kerberos-dir
+	--without-kerberos-dir
+	--with-kerberos-include
+	--without-kerberos-include=${kerberos-dir}/include
+	--with-kerberos-lib
+	--without-kerberos-lib=${kerberos-dir}/lib
+	--with-debug
+	--without-debug
+	--enable-debug
+	--disable-debug
+	--with-nsllib
+	--without-nsllib
+	--with-socketlib
+	--without-socketlib
+extconf.rb:101:in `<main>': OpenSSL library could not be found. You might want to use --with-openssl-dir=<dir> option to specify the prefix where OpenSSL is installed. (RuntimeError)
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/sergioandres/.gem/extensions/universal-darwin-22/2.6.0/openssl-3.1.0/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/sergioandres/.gem/gems/openssl-3.1.0 for inspection.
+Results logged to /Users/sergioandres/.gem/extensions/universal-darwin-22/2.6.0/openssl-3.1.0/gem_make.out
+Gems updated: openssl
+
+----- 2023-04-07 19:55:43 - Updating gem app: ostruct -----
+Updating installed gems
+Updating ostruct
+Successfully installed ostruct-0.5.5
+Parsing documentation for ostruct-0.5.5
+Installing ri documentation for ostruct-0.5.5
+Installing darkfish documentation for ostruct-0.5.5
+Done installing documentation for ostruct after 0 seconds
+Parsing documentation for ostruct-0.5.5
+Done installing documentation for ostruct after 0 seconds
+Gems updated: ostruct
+
+----- 2023-04-07 19:55:46 - Updating gem app: power_assert -----
+Updating installed gems
+Updating power_assert
+Successfully installed power_assert-2.0.3
+Parsing documentation for power_assert-2.0.3
+Installing ri documentation for power_assert-2.0.3
+Installing darkfish documentation for power_assert-2.0.3
+Done installing documentation for power_assert after 0 seconds
+Parsing documentation for power_assert-2.0.3
+Done installing documentation for power_assert after 0 seconds
+Gems updated: power_assert
+
+----- 2023-04-07 19:55:50 - Updating gem app: prime -----
+Updating installed gems
+Updating prime
+Successfully installed singleton-0.1.1
+Successfully installed prime-0.1.2
+Parsing documentation for singleton-0.1.1
+Installing ri documentation for singleton-0.1.1
+Installing darkfish documentation for singleton-0.1.1
+Parsing documentation for prime-0.1.2
+Installing ri documentation for prime-0.1.2
+Installing darkfish documentation for prime-0.1.2
+Done installing documentation for singleton, prime after 0 seconds
+Parsing documentation for prime-0.1.2
+Parsing documentation for singleton-0.1.1
+Done installing documentation for prime, singleton after 0 seconds
+Gems updated: prime singleton
+
+----- 2023-04-07 19:55:55 - Updating gem app: psych -----
+Updating installed gems
+Updating psych
+Building native extensions. This could take a while...
+ERROR:  Error installing psych:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Users/sergioandres/.gem/gems/psych-5.1.0/ext/psych
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230407-31771-1mtz6lp.rb extconf.rb
+checking for yaml.h... no
+yaml.h not found
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
+	--with-libyaml-source-dir
+	--without-libyaml-source-dir
+	--with-yaml-0.1-config
+	--without-yaml-0.1-config
+	--with-pkg-config
+	--without-pkg-config
+	--with-libyaml-dir
+	--without-libyaml-dir
+	--with-libyaml-include
+	--without-libyaml-include=${libyaml-dir}/include
+	--with-libyaml-lib
+	--without-libyaml-lib=${libyaml-dir}/lib
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/sergioandres/.gem/extensions/universal-darwin-22/2.6.0/psych-5.1.0/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/sergioandres/.gem/gems/psych-5.1.0 for inspection.
+Results logged to /Users/sergioandres/.gem/extensions/universal-darwin-22/2.6.0/psych-5.1.0/gem_make.out
+Gems updated: psych
+
+----- 2023-04-07 19:55:59 - Updating gem app: rake -----
+Updating installed gems
+Updating rake
+Successfully installed rake-13.0.6
+Parsing documentation for rake-13.0.6
+Installing ri documentation for rake-13.0.6
+Installing darkfish documentation for rake-13.0.6
+Done installing documentation for rake after 0 seconds
+Parsing documentation for rake-13.0.6
+Done installing documentation for rake after 0 seconds
+Gems updated: rake
+
+----- 2023-04-07 19:56:03 - Updating gem app: rdoc -----
+Updating installed gems
+Updating rdoc
+Building native extensions. This could take a while...
+ERROR:  Error installing rdoc:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Users/sergioandres/.gem/gems/psych-5.1.0/ext/psych
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230407-31878-yfqxye.rb extconf.rb
+checking for yaml.h... no
+yaml.h not found
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
+	--with-libyaml-source-dir
+	--without-libyaml-source-dir
+	--with-yaml-0.1-config
+	--without-yaml-0.1-config
+	--with-pkg-config
+	--without-pkg-config
+	--with-libyaml-dir
+	--without-libyaml-dir
+	--with-libyaml-include
+	--without-libyaml-include=${libyaml-dir}/include
+	--with-libyaml-lib
+	--without-libyaml-lib=${libyaml-dir}/lib
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/sergioandres/.gem/extensions/universal-darwin-22/2.6.0/psych-5.1.0/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/sergioandres/.gem/gems/psych-5.1.0 for inspection.
+Results logged to /Users/sergioandres/.gem/extensions/universal-darwin-22/2.6.0/psych-5.1.0/gem_make.out
+Gems updated: psych
+Gems already up-to-date: rdoc
+
+----- 2023-04-07 19:56:07 - Updating gem app: rexml -----
+Updating installed gems
+Updating rexml
+Successfully installed rexml-3.2.5
+Parsing documentation for rexml-3.2.5
+Installing ri documentation for rexml-3.2.5
+Installing darkfish documentation for rexml-3.2.5
+Done installing documentation for rexml after 2 seconds
+Parsing documentation for rexml-3.2.5
+Done installing documentation for rexml after 0 seconds
+Gems updated: rexml
+
+----- 2023-04-07 19:56:12 - Updating gem app: rss -----
+Updating installed gems
+Updating rss
+Successfully installed rss-0.2.9
+Parsing documentation for rss-0.2.9
+Installing ri documentation for rss-0.2.9
+Installing darkfish documentation for rss-0.2.9
+Done installing documentation for rss after 2 seconds
+Parsing documentation for rss-0.2.9
+Done installing documentation for rss after 0 seconds
+Gems updated: rss
+
+----- 2023-04-07 19:56:19 - Updating gem app: shell -----
+Updating installed gems
+Updating shell
+Successfully installed shell-0.8.1
+Parsing documentation for shell-0.8.1
+Installing ri documentation for shell-0.8.1
+Installing darkfish documentation for shell-0.8.1
+Done installing documentation for shell after 0 seconds
+Parsing documentation for shell-0.8.1
+Done installing documentation for shell after 0 seconds
+Gems updated: shell
+
+----- 2023-04-07 19:56:23 - Updating gem app: sqlite3 -----
+ERROR:  Error installing sqlite3:
+	The last version of sqlite3 (= 1.6.2) to support your Ruby & RubyGems was 1.6.2. Try installing it with `gem install sqlite3 -v 1.6.2` and then running the current command again
+	sqlite3 requires Ruby version >= 2.7, < 3.3.dev. The current ruby version is 2.6.10.210.
+Updating installed gems
+Updating sqlite3
+Gems updated: sqlite3
+
+----- 2023-04-07 19:56:27 - Updating gem app: stringio -----
+Updating installed gems
+Updating stringio
+Building native extensions. This could take a while...
+Successfully installed stringio-3.0.5
+Parsing documentation for stringio-3.0.5
+Installing ri documentation for stringio-3.0.5
+Installing darkfish documentation for stringio-3.0.5
+Done installing documentation for stringio after 0 seconds
+Parsing documentation for stringio-3.0.5
+Done installing documentation for stringio after 0 seconds
+Gems updated: stringio
+
+----- 2023-04-07 19:56:32 - Updating gem app: strscan -----
+Updating installed gems
+Updating strscan
+Building native extensions. This could take a while...
+Successfully installed strscan-3.0.6
+Parsing documentation for strscan-3.0.6
+Installing ri documentation for strscan-3.0.6
+Installing darkfish documentation for strscan-3.0.6
+Done installing documentation for strscan after 0 seconds
+Parsing documentation for strscan-3.0.6
+Done installing documentation for strscan after 0 seconds
+Gems updated: strscan
+
+----- 2023-04-07 19:56:37 - Updating gem app: test-unit -----
+Updating installed gems
+Updating test-unit
+Successfully installed test-unit-3.5.7
+Parsing documentation for test-unit-3.5.7
+Installing ri documentation for test-unit-3.5.7
+Installing darkfish documentation for test-unit-3.5.7
+Done installing documentation for test-unit after 1 seconds
+Parsing documentation for test-unit-3.5.7
+Done installing documentation for test-unit after 0 seconds
+Gems updated: test-unit
+
+----- 2023-04-07 19:56:42 - Updating gem app: thwait -----
+Updating installed gems
+Updating thwait
+Successfully installed thwait-0.2.0
+Parsing documentation for thwait-0.2.0
+Installing ri documentation for thwait-0.2.0
+Installing darkfish documentation for thwait-0.2.0
+Done installing documentation for thwait after 0 seconds
+Parsing documentation for thwait-0.2.0
+Done installing documentation for thwait after 0 seconds
+Gems updated: thwait
+
+----- 2023-04-07 19:56:46 - Updating gem app: tracer -----
+Updating installed gems
+Updating tracer
+Successfully installed tracer-0.1.1
+Parsing documentation for tracer-0.1.1
+Installing ri documentation for tracer-0.1.1
+Installing darkfish documentation for tracer-0.1.1
+Done installing documentation for tracer after 0 seconds
+Parsing documentation for tracer-0.1.1
+Done installing documentation for tracer after 0 seconds
+Gems updated: tracer
+
+----- 2023-04-07 19:56:50 - Updating gem app: webrick -----
+Updating installed gems
+Updating webrick
+Successfully installed webrick-1.8.1
+Parsing documentation for webrick-1.8.1
+Installing ri documentation for webrick-1.8.1
+Installing darkfish documentation for webrick-1.8.1
+Done installing documentation for webrick after 1 seconds
+Parsing documentation for webrick-1.8.1
+Done installing documentation for webrick after 0 seconds
+Gems updated: webrick
+
+----- 2023-04-07 19:56:54 - Updating gem app: xmlrpc -----
+Updating installed gems
+Updating xmlrpc
+Successfully installed xmlrpc-0.3.2
+Parsing documentation for xmlrpc-0.3.2
+Installing ri documentation for xmlrpc-0.3.2
+Installing darkfish documentation for xmlrpc-0.3.2
+Done installing documentation for xmlrpc after 0 seconds
+Parsing documentation for xmlrpc-0.3.2
+Done installing documentation for xmlrpc after 0 seconds
+Gems updated: xmlrpc
+
+----- 2023-04-07 19:56:59 - Updating gem app: zlib -----
+Updating installed gems
+Updating zlib
+Building native extensions. This could take a while...
+Successfully installed zlib-3.0.0
+Parsing documentation for zlib-3.0.0
+Installing ri documentation for zlib-3.0.0
+Installing darkfish documentation for zlib-3.0.0
+Done installing documentation for zlib after 0 seconds
+Parsing documentation for zlib-3.0.0
+Done installing documentation for zlib after 0 seconds
+Gems updated: zlib
+
+----- 2023-04-07 19:57:05 - Upgrading Zim -----
+[32m)[39m [1m/Users/sergioandres/.dotfiles/shell/zsh/.zim/zimfw.zsh:[0m Already up to date
+Done with upgrade.
+
+----- 2023-04-07 19:57:06 - Updating Zim -----
+[2KUpdating environment ...[2KUpdating git-info ...[2KUpdating input ...[2KUpdating completion ...[2KUpdating utility ...[2KUpdating zsh-syntax-highlighting ...[2KUpdating zsh-autosuggestions ...[2K[32m)[39m [1menvironment:[0m Already up to date.
+[2K[32m)[39m [1mutility:[0m Already up to date.
+[2K[32m)[39m [1mgit-info:[0m Already up to date.
+[2K[32m)[39m [1mcompletion:[0m Already up to date.
+[2K[32m)[39m [1minput:[0m Already up to date.
+[2K[32m)[39m [1mzsh-autosuggestions:[0m Already up to date.
+[2K[32m)[39m [1mzsh-syntax-highlighting:[0m Already up to date.
+Done with update. Restart your terminal for changes to take effect.
+
+----- 2023-04-07 20:09:47 - Trying to install git-delta using brew -----
+==> Fetching git-delta
+==> Downloading https://ghcr.io/v2/homebrew/core/git-delta/manifests/0.15.1
+==> Downloading https://ghcr.io/v2/homebrew/core/git-delta/blobs/sha256:6a92d184dbe72fe95f21b2bd5e1ac8ec2f18575db9b226cd36d036a5b94ad776
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:6a92d184dbe72fe95f21b2bd5e1ac8ec2f18575db9b226cd36d036a5b94ad776?se=2023-04-08T01%3A15%3A00Z&sig=2HEOCN5lAnq%2FXIvnK8MWFdCH5981Y2As8l9axIQa%2FsM%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring git-delta--0.15.1.ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/git-delta/0.15.1: 10 files, 6.0MB
+==> Running `brew cleanup git-delta`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+----- 2023-04-07 20:09:57 - Trying to install git-delta using mas -----
+
+----- 2023-04-07 20:09:57 - Trying to install git-delta using ports -----
+
+----- 2023-04-07 20:09:57 - Trying to install git-delta using cargo -----
+
+----- 2023-04-11 18:09:00 - Trying to install shellcheck using brew -----
+Warning: formula.jws.json: update failed, falling back to cached version.
+Warning: cask.jws.json: update failed, falling back to cached version.
+==> Fetching shellcheck
+==> Downloading https://ghcr.io/v2/homebrew/core/shellcheck/manifests/0.9.0
+Error: shellcheck: Failed to download resource "shellcheck_bottle_manifest"
+Failure while executing; `/usr/bin/env /usr/local/Homebrew/Library/Homebrew/shims/shared/curl --disable --cookie /dev/null --globoff --show-error --user-agent Homebrew/4.0.12\ \(Macintosh\;\ Intel\ Mac\ OS\ X\ 13.0.1\)\ curl/7.84.0 --header Accept-Language:\ en --retry 3 --header Accept:\ application/vnd.oci.image.index.v1\+json --header Authorization:\ Bearer\ QQ== --fail --location --silent --head https://ghcr.io/v2/homebrew/core/shellcheck/manifests/0.9.0` exited with 6. Here's the output:
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+
+
+----- 2023-04-11 18:09:12 - Trying to install shellcheck using mas -----
+
+----- 2023-04-11 18:09:12 - Trying to install shellcheck using ports -----
+
+----- 2023-04-11 18:09:12 - Trying to install shellcheck using cargo -----
+
